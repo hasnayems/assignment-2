@@ -1,0 +1,118 @@
+/* Heading */
+
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.header-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.h-bar-right{
+    display: flex;
+    gap: 30px;
+}
+.header-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    margin: 0 350px;
+}
+.h-heading-title button{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.h-heading-img{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+/* Quick list of Our Features */
+
+.main-quick-list{
+    display: flex;
+    gap: 30px;
+    margin: 50px 150px;
+}
+.m-quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 30px;
+    gap: 10px;
+}
+.m-quick-list-heading button{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+/* Features you will love & enjoy */
+
+.main-love-enjoy{
+    display: flex;
+    gap: 30px;
+    margin: 50px 100px;
+}
+.m-love-enjoy-heading-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+.list{
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px gray;
+}
+.main-love-enjoy button{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 70px;
+    width: 120px;
+}
+
+/* Some Facts */
+
+.main-facts{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+}
+.m-facts-icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Our Sponspors */
+
+.main-sponspors{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+
+}
+.m-sponspors-title{
+    text-align: center;
+}
+.m-sponspors-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* copyright */
+
+.main-copyright{
+    background: rgba(255, 144, 14, 0.1);
+    height: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 50px 100px;
+}
