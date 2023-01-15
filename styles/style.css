@@ -18,12 +18,18 @@
     gap: 30px;
 }
 
+/* pseudo */
+
+.h-bar-left:hover, .hbr-1:hover, .hbr-2:hover, .hbr-3:hover, .hbr-4:hover{
+    background-color: rgb(218, 217, 217);
+    border-radius: 5px;
+}
+
 /* Banner */
 
 .header-banner{
     display: flex;
     flex-direction: column;
-    /* position: relative; */
     text-align: center;
     gap: 50px;
     margin: 0 100px;
@@ -90,7 +96,7 @@
     flex-direction: column;
     gap: 15px;
 }
-.list{
+.list-1, .list-2, .list-3{
     border-radius: 5px;
     box-shadow: 0 0 5px 1px gray;
     padding: 10px;
@@ -105,8 +111,13 @@
     position: relative;
     bottom: 110px;
     left: 790px;
+}
 
+/* pseudo */
 
+.list-1:hover, .list-2:hover, .list-3:hover{
+    background-color: rgb(218, 217, 217);
+    border-radius: 5px;
 }
 
 /* Some Facts */
@@ -126,6 +137,13 @@
 .m-facts-img img{
     height: 100px;
     width: 100px;
+}
+
+/* pseudo */
+
+.mfi-1:hover, .mfi-2:hover, .mfi-3:hover, .mfi-4:hover, .mfi-5:hover{
+    background-color: rgb(218, 217, 217);
+    border-radius: 5px;
 }
 
 /* Our Sponspors */
@@ -148,6 +166,13 @@
 
 }
 
+/* pseudo */
+
+.msi-1:hover, .msi-2:hover, .msi-3:hover, .msi-4:hover, .msi-5:hover{
+    background-color: rgb(218, 217, 217);
+    border-radius: 5px;
+}
+
 /* Footer */
 
 /* copyright */
@@ -164,9 +189,9 @@
     top: 25px;
 }
 
-/* ------------------------------------------------- */
-/* ------------------------------------------------- */
-/* ------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
 
 /* media query */
 
@@ -208,8 +233,6 @@
     }
     .h-banner-img img{
         width: 350px;
-
-
     }
 
     /* Quick list of Our Features */
@@ -232,7 +255,6 @@
     .m-quick-list-img img{
         height: 250px;
         width: 350px;
-
     }
 
     /* Features you will love & enjoy */
@@ -246,8 +268,7 @@
     }
     .m-love-enjoy-title-list{
         width: 330px;
-        gap: 5px;
-        
+        gap: 5px;   
     }
     .m-love-enjoy-img{
         width: 350px;
@@ -290,9 +311,12 @@
         flex-direction: column;
         margin-bottom: 10px;
         width: 200px;
-        padding-left: 75px;
+        padding-left: 85px;
     }
-    /* .m-sponspors-img img{         ///NOT WORKING///
+    
+    /* Not Working */
+    
+    /* .m-sponspors-img img{
         text-align: center;
     } */
 
