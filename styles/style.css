@@ -1,4 +1,6 @@
-/* Heading */
+/* Header */
+
+/* Bar */
 
 .header{
     background: rgba(255, 144, 14, 0.1);
@@ -11,40 +13,51 @@
     display: flex;
     gap: 30px;
 }
-.header-heading{
+
+/* Banner */
+
+.header-banner{
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 30px;
     margin: 0 350px;
 }
-.h-heading-title button{
+.h-banner-btn{
     background-color: darkorange;
     color: white;
     border: none;
     border-radius: 5px;
     height: 30px;
 }
-
-.h-heading-img{
+.h-banner-img{
     margin-bottom: 50px;
-    width: 100%;
 }
+
+/* Main */
 
 /* Quick list of Our Features */
 
 .main-quick-list{
     display: flex;
-    gap: 30px;
+    align-items: center;
+    gap: 50px;
     margin: 50px 150px;
+    width: 100%;
 }
 .m-quick-list-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 50px 30px;
+    position: relative;
     gap: 10px;
 }
-.m-quick-list-heading button{
+.m-quick-list-title-span-1{
+    color: grey;
+}
+.m-quick-list-title-span-2{
+    color: darkorange;
+}
+.m-quick-list-btn{
     background-color: darkorange;
     color: white;
     border: none;
@@ -56,19 +69,22 @@
 
 .main-love-enjoy{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     margin: 50px 100px;
 }
-.m-love-enjoy-heading-list{
+.m-love-enjoy-title-h1{
+    padding: 10px;
+    border-left: solid darkorange;
+}
+.m-love-enjoy-title-list{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
-    
 }
 .list{
     border-radius: 5px;
     box-shadow: 0 0 5px 1px gray;
+    padding: 10px;
 }
 .main-love-enjoy button{
     background-color: darkorange;
