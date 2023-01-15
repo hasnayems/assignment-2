@@ -70,7 +70,7 @@
 .main-love-enjoy{
     display: flex;
     gap: 50px;
-    margin: 50px 100px;
+    margin: 100px 100px;
 }
 .m-love-enjoy-title-h1{
     padding: 10px;
@@ -86,13 +86,17 @@
     box-shadow: 0 0 5px 1px gray;
     padding: 10px;
 }
-.main-love-enjoy button{
+.main-love-enjoy-btn{
     background-color: darkorange;
     color: white;
     border: none;
     border-radius: 5px;
-    height: 70px;
-    width: 120px;
+    height: 100px;
+    width: 150px;
+    position: relative;
+    bottom: 170px;
+    left: 480px;
+
 }
 
 /* Some Facts */
@@ -102,9 +106,16 @@
     flex-direction: column;
     margin: 50px 100px;
 }
+.m-facts-title{
+    width: 500px;
+}
 .m-facts-icon{
     display: flex;
     justify-content: space-around;
+}
+.m-facts-icon img{
+    height: 100px;
+    width: 100px;
 }
 
 /* Our Sponspors */
@@ -113,14 +124,16 @@
     display: flex;
     flex-direction: column;
     margin: 50px 100px;
-
 }
 .m-sponspors-title{
     text-align: center;
+    margin: 0 300px;
 }
 .m-sponspors-img{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    filter: grayscale(100%);
+
 }
 
 /* copyright */
@@ -131,4 +144,8 @@
     text-align: center;
     margin-bottom: 50px;
     margin: 50px 100px;
+}
+.main-copyright p{
+    position: relative;
+    top: 25px;
 }
