@@ -129,7 +129,7 @@
 
 /* pseudo */
 
-.list-1:hover, .list-2:hover, .list-3:hover{
+.list-1:hover, .list-2:hover, .list-3:hover, .main-love-enjoy-btn:hover{
     background-color: rgb(218, 217, 217);
     border-radius: 5px;
 }
