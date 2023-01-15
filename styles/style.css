@@ -48,6 +48,13 @@
     margin-bottom: 50px;
 }
 
+/* pseudo */
+
+.h-banner-btn:hover{
+    background-color: rgb(218, 217, 217);
+    border-radius: 5px;
+}
+
 /* Main */
 
 /* Quick list of Our Features */
@@ -78,6 +85,13 @@
     border: none;
     border-radius: 5px;
     height: 30px;
+}
+
+/* pseudo */
+
+.m-quick-list-btn:hover{
+    background-color: rgb(218, 217, 217);
+    border-radius: 5px;
 }
 
 /* Features you will love & enjoy */
